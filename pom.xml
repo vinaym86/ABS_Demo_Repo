@@ -21,8 +21,12 @@
 		<groupId>org.springframework</groupId>
 		<artifactId>spring</artifactId>
 		<version>2.5.6</version>
-	</dependency>
-    
-    
+	</dependency>  
   </dependencies>
+	
+	<properties> 
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+		<suiteXmlFile>${basedir}/AccountManager.xml</suiteXmlFile> 
+		<skipTests>true</skipTests>
+	</properties>
 </project>
