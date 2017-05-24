@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AccountManager module" parallel="false" thread-count="2">
+
+<!--	<parameter name="baseUrl" value="${baseUrl}" />
+	<parameter name="username" value="${username}" />
+	<parameter name="password" value="${password}" />
+	<parameter name="account" value="${account}" />
+	<parameter name="cloudspace" value="${cloudspace}" />
+	<parameter name="reservedComputePoolName" value="${reservedComputePoolName}" />
+	<parameter name="windowsBlankName" value="${windowsBlankName}" />
+	<parameter name="linuxBlankName" value="${linuxBlankName}" />
+	<parameter name="windowsTemplateName" value="${windowsTemplateName}" />
+	<parameter name="linuxTemplateName" value="${linuxTemplateName}" />
+	<parameter name="networkName" value="${networkName}" />
+	<parameter name="rowName" value="${rowName}" />
+	<parameter name="groupName" value="${groupName}" />
+	<parameter name="vmDescription" value="${vmDescription}" />
+	<parameter name="catalogName" value="${catalogName}" />
+	<parameter name="dataCenter" value="${dataCenter}" /> 
+	
+	<parameter name="baseUrl" value="https://staging-my.cloud.verizon.com" />
+	<parameter name="username" value="ShieldUIDevicesReserved@mailinator.com" />
+	<parameter name="password" value="Test4321!" />
+	<parameter name="account" value="Shield Vector-B ONLY AUTOMATION TEAM" />
+	<parameter name="cloudspace" value="CUA21717VMC29_R09" />
+	<parameter name="reservedComputePoolName" value="NewReseverdPoolforcatalog" />
+	<parameter name="instanceComputePoolName" value="Elastictotest" />
+	<parameter name="windowsBlankName" value="Microsoft Windows Server 2012 (64-bit)" />
+	<parameter name="linuxBlankName" value="Red Hat Enterprise Linux 5 (64-bit)" />
+	<parameter name="windowsTemplateName" value="!Windows 2008R2 Std" />
+	<parameter name="linuxTemplateName" value="Ubuntu Server 10.04 x64" />
+	<parameter name="networkName" value="10.146.200.160/28" />
+	<parameter name="networkNameInt" value="10.146.200.144/28" />
+	<parameter name="dataCenter" value="Culpeper" />
+	
+	<!-- <parameter name="baseUrl" value="https://int-my.cloud.verizon.com/login#/" />
+	<parameter name="username" value="autouser2@mailinator.com" />
+	<parameter name="password" value="P@55word!" />
+	<parameter name="account" value="Multi Site Customer - DO NOT TOUCH" />
+	<parameter name="cloudspace" value="automationsite123" />
+	<parameter name="reservedComputePoolName" value="Default Compute Pool" />
+	<parameter name="instanceComputePoolName" value="InstanceBased" />
+	<parameter name="windowsBlankName" value="Microsoft Windows Server 2012 (64-bit)" />
+	<parameter name="linuxBlankName" value="Red Hat Enterprise Linux 5 (64-bit)" />
+	<parameter name="windowsTemplateName" value="-Windows Server 2012 Standard" />
+	<parameter name="linuxTemplateName" value="CentOS 6.5 x64" />
+	<parameter name="networkName" value="10.156.86.64/27" />
+	<parameter name="networkNameInt" value="10.156.42.96/27" />
+	<parameter name="dataCenter" value="Culpeper" />  -->
+	
+	
+
+	<!-- <test name="AccountManager Settings>SSH Key">
+		<classes>
+			<class name="com.verizon.shield.test.acctmanager.settings.SSHKeyTest" />
+		</classes>
+	</test>
+
+	
+
+	<test name="AccountManager Security>VPNUsersTest">
+		<classes>
+			<class name="com.verizon.shield.test.acctmanager.VPNUsersTest" />
+		</classes>
+	</test>
+
+	<test name="AccountManager Security>FederationGroupTest">
+		<classes>
+			<class name="com.verizon.shield.test.acctmanager.FederationGroupTest" />
+		</classes>
+	</test>-->
+
+	<test name="Billing Account Details">
+		<classes>
+			<class name="com.mkyong.common.AppTest" />
+			
+		</classes>
+	</test>
+
+	<!-- <test name="AccountManager Security>BasicUsers">
+		<classes>
+			<class name="com.verizon.shield.test.acctmanager.BasicUsersTest" />
+		</classes>
+	</test>
+
+	<test name="AccountManager Security>Invitations">
+		<classes>
+			<class name="com.verizon.shield.test.acctmanager.InvitationsTest" />
+		</classes>
+	</test> -->
+
+	<!-- <test name="AccountManager Settings>Login Banner">
+		<classes>
+			<class name="com.verizon.shield.test.acctmanager.settings.LoginBannerTest" />
+		</classes>
+	</test> -->
+
+	<!-- <test name="AccountManager Security>APIUsers">
+		<classes>
+			<class name="com.verizon.shield.test.acctmanager.APIUsersTest" />
+		</classes>
+	</test>
+
+	<test name="AccountManager Settings> Security Group">
+		<classes>
+			<class
+				name="com.verizon.shield.test.acctmanager.settings.SecurityGroupTest" />
+		</classes>
+	</test>
+
+	<test name="AccountManager Settings> Services">
+		<classes>
+			<class name="com.verizon.shield.test.acctmanager.settings.ServicesTest" />
+		</classes>
+	</test>
+
+	<test name="Security Roles">
+		<classes>
+			<class name="com.verizon.shield.test.acctmanager.SecurityRoles" />
+		</classes>
+	</test>
+
+	
+
+	<test name="Login Operations">
+		<classes>
+			<class name="com.verizon.shield.test.LoginTest" />
+		</classes>
+	</test>
+	
+	<test name="AccountManager>Catalog">
+		<classes>
+			<class name="com.verizon.shield.test.catalog.CatalogTest" />
+		</classes>
+	</test>
+	
+	<test name="AccountManager>Catalog>AuditLog">
+		<classes>
+			<class name="com.verizon.shield.test.catalog.CatalogAuditlogTest" />
+		</classes>
+	</test> -->
+
+</suite>
