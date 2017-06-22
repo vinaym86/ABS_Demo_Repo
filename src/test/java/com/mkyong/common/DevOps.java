@@ -9,8 +9,8 @@ public class DevOps {
 	
   
   public void setup() throws InterruptedException {
-	 System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver"); //sets the system property to the IE driver. Download from( http://www.seleniumhq.org/download/)
-	 driver = new ChromeDriver();
+	// System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver"); //sets the system property to the IE driver. Download from( http://www.seleniumhq.org/download/)
+	 driver = new FirefoxDriver();
 	  driver.manage().window().maximize(); //Maximize the window
 	  driver.get("https://www.google.co.in"); //enters this URL and navigates
 	  System.out.println("Browser Launched");
