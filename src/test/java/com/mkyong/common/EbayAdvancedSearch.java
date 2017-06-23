@@ -1,12 +1,16 @@
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.WebDriver;
 
 
 public class EbayAdvancedSearch {
-	public WebDriver driver;
+	private WebDriver driver;
 
 	@Before
 	public void setUp() throws Exception {
