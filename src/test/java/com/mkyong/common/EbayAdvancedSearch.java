@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 
 public class EbayAdvancedSearch {
  WebDriver driver;
-WebDriver driver = new FirefoxDriver;	
+WebDriver driver = new FirefoxDriver();	
 	@Test
 	public void testEbayAdvancedSearch() throws Exception {
 		driver.get("http://www.google.com");	
